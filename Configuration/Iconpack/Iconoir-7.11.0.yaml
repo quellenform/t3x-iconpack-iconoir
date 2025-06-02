@@ -1,0 +1,34 @@
+iconpack:
+  title: "Iconoir"
+  key: "iconoir"
+  version: 7.11.0
+  url: "https://iconoir.com/"
+
+  stylesEnabled: "solid,regular"
+
+  renderTypes:
+
+    _default:
+      solid:
+        label: "Solid"
+
+      regular:
+        label: "Regular"
+
+    svg:
+      _default:
+        prefix: "iconoir-"
+      solid:
+        source: "EXT:iconpack_iconoir/Resources/Public/Vendor/iconoir-7.11.0/svgs/solid/"
+      regular:
+        source: "EXT:iconpack_iconoir/Resources/Public/Vendor/iconoir-7.11.0/svgs/regular/"
+
+    svgInline:
+      _default:
+        prefix: "iconoir-"
+      solid:
+        source: "EXT:iconpack_iconoir/Resources/Public/Vendor/iconoir-7.11.0/svgs/solid/"
+      regular:
+        source: "EXT:iconpack_iconoir/Resources/Public/Vendor/iconoir-7.11.0/svgs/regular/"
+
+  icons: "EXT:iconpack_iconoir/Resources/Public/Vendor/iconoir-7.11.0/metadata/icons.json"
