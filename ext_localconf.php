@@ -9,6 +9,7 @@ if (\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::isLoaded('iconpack')) {
         'EXT:iconpack_iconoir/Configuration/Iconpack/Iconoir-7.11.0.yaml',
         \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
             \TYPO3\CMS\Core\Configuration\ExtensionConfiguration::class
-        )->get('iconpack_iconoir', 'configFile')
+        )->get('iconpack_iconoir', 'configFile'),
+        \Quellenform\IconpackIconoir\Configuration\IconpackConfiguration::class
     );
 }

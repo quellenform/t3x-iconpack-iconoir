@@ -1,2 +1,4 @@
 # cat=basic/1; type=string; label=LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:extConf.configFile
 configFile =
+# cat=basic/2; type=string; label=LLL:EXT:iconpack/Resources/Private/Language/locallang_be.xlf:extConf.stylesEnabled
+stylesEnabled =
